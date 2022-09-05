@@ -42,7 +42,7 @@
 
 /* MARCA TEMPORÁRIA */
 .marca-temporaria {
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-size: 4rem;
   font-weight: 700;
   font-family: "ubuntu", "Fira Sans", Arial, Helvetica, sans-serif;

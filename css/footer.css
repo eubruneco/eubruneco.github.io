@@ -23,33 +23,48 @@
   font-size: 2.2rem;
   line-height: 1.1;
   color: #fff;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
-.footer-contato li a {
+.footer-botao a {
   color: #fff;
-  margin-top: 200px;
 }
 
 .footer-contato a {
   padding: 20px 40px;
   background-color: #8f8f8f;
   border-radius: 4px;
-  margin-top: 200px;
+  text-decoration: none;
+}
+
+.footer-contato a:hover {
+  background-color: #ccc;
+  transition: 0.3s;
 }
 
 .footer-copy {
   font-size: 1.125rem;
   color: #8f8f8f;
   grid: 1 / -1;
+  color: rgb(201, 201, 201);
+  grid-column: 1 / -1;
+  text-align: center;
 }
 
 @media (max-width: 870px) {
   .footer-container {
     grid-template-columns: 1fr;
-    gap: 40px;
+    gap: 30px;
   }
   .footer-contato li {
     font-size: 1.5rem;
+    margin: 30px 0px;
+  }
+  .footer .footer-copy {
+    margin-top: 40px;
+    text-align: left;
+  }
+  .footer .footer-copy strong {
+    color: rgb(201, 201, 201);
   }
 }
