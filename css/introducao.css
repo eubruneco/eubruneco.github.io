@@ -13,6 +13,22 @@
   margin-bottom: 30px;
   position: relative;
 }
+
+.introducao span {
+  font-size: 1rem;
+  line-height: 1.125;
+  margin-bottom: 30px;
+  color: #525252;
+  font-style: italic;
+}
+/* FOTO TEMPORÁRIA */
+.introducao img {
+  border-radius: 100%;
+  max-width: 300px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
 .introducao h1::before {
   content: "";
   display: block;
@@ -28,6 +44,7 @@
 .introducao p {
   font-size: 1.5rem;
   color: #525252;
+  margin-top: 10px;
 }
 
 @media (max-width: 870px) {

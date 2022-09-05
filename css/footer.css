@@ -28,6 +28,14 @@
 
 .footer-contato li a {
   color: #fff;
+  margin-top: 200px;
+}
+
+.footer-contato a {
+  padding: 20px 40px;
+  background-color: #8f8f8f;
+  border-radius: 4px;
+  margin-top: 200px;
 }
 
 .footer-copy {
