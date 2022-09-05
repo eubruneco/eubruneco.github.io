@@ -34,7 +34,7 @@
   display: block;
   width: 130px;
   height: 100px;
-  background: url("./img/detalhe.svg") no-repeat center;
+  background: url("../img/detalhe.svg") no-repeat center;
   position: absolute;
   z-index: -01;
   left: -40px;
