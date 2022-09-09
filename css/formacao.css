@@ -1,5 +1,5 @@
 .formacao {
-  background-color: #141414;
+  background-color: #242424;
   color: #fff;
 }
 
@@ -64,7 +64,7 @@
   display: block;
   width: 4px;
   height: 20px;
-  background: linear-gradient(#b6f829, #67dd0a);
+  background: linear-gradient(#763bdb, #a480e1);
   position: absolute;
   left: -24px;
 }

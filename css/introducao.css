@@ -15,7 +15,7 @@
 }
 
 .introducao span {
-  font-size: 1rem;
+  font-size: 1.25rem;
   line-height: 1.125;
   margin-bottom: 30px;
   color: #525252;
@@ -25,10 +25,15 @@
 .introducao img {
   border-radius: 100%;
   max-width: 300px;
-  max-width: 100%;
   height: auto;
   display: block;
+  border-width: 0.4rem;
+  border-style: solid;
+  background: linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(#763bdb, #a480e1) border-box;
+  border-color: transparent;
 }
+
 .introducao h1::before {
   content: "";
   display: block;

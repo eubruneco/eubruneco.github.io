@@ -21,10 +21,11 @@
   text-decoration: none;
   color: #141414;
   display: block;
+  font-weight: bold;
 }
 
 .header-menu li a:hover {
-  color: #70da1c;
+  color: #763bdb;
   transition: 0.2s;
 }
 
@@ -46,4 +47,5 @@
   font-size: 4rem;
   font-weight: 700;
   font-family: "ubuntu", "Fira Sans", Arial, Helvetica, sans-serif;
+  text-decoration: underline #763bdb 0.55rem;
 }

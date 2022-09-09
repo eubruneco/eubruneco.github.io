@@ -50,7 +50,9 @@
   grid-column: 1 / -1;
   text-align: center;
 }
-
+.footer .footer-copy strong {
+  color: #763bdb;
+}
 @media (max-width: 870px) {
   .footer-container {
     grid-template-columns: 1fr;
@@ -63,8 +65,5 @@
   .footer .footer-copy {
     margin-top: 40px;
     text-align: left;
-  }
-  .footer .footer-copy strong {
-    color: rgb(201, 201, 201);
   }
 }
