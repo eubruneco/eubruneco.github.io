@@ -24,4 +24,4 @@
 <br>
 <br>
 
-<p>Desenvolvido com 💜 por <strong>Bruno Leite</strong></p>
+<p>Desenvolvido por <strong>Bruno Leite</strong></p>
