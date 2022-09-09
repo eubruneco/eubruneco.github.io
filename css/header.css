@@ -29,6 +29,23 @@
   transition: 0.2s;
 }
 
+/* MARCA TEMPORÁRIA */
+.marca-temporaria {
+  text-transform: capitalize;
+  font-size: 3.8rem;
+  font-weight: bold;
+}
+
+@media (max-width: 975px) {
+  .header-menu a {
+    gap: 10px;
+    padding: 5px 10px;
+  }
+  .marca-temporaria {
+    font-size: 2.8rem;
+  }
+}
+
 @media (max-width: 700px) {
   .header {
     flex-direction: column;
@@ -41,15 +58,12 @@
   }
 }
 
-/* MARCA TEMPORÁRIA */
-.marca-temporaria {
-  text-transform: capitalize;
-  font-size: 4rem;
-  font-weight: bold;
-  font-family: "Qwitcher Grypen", cursive;
-  border-bottom: 0.3rem solid #763bdb;
+.marca-temporaria:hover {
+  color: #444;
 }
 
-.marca-temporaria:hover {
-  color: #a480e1;
+@media (max-width: 370px) {
+  .marca-temporaria {
+    font-size: 2.6rem;
+  }
 }

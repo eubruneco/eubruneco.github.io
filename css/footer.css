@@ -8,7 +8,7 @@
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 100px;
+  gap: 80px;
   align-items: center;
 }
 
@@ -26,20 +26,17 @@
   margin-bottom: 50px;
 }
 
-.footer-botao a {
+.footer-contato a {
+  padding: 20px 40px;
+  background-color: #0a66c2;
+  border-radius: 4px;
+  text-decoration: none;
   color: #fff;
 }
 
-.footer-contato a {
-  padding: 20px 40px;
-  background-color: #8f8f8f;
-  border-radius: 4px;
-  text-decoration: none;
-}
-
 .footer-contato a:hover {
-  background-color: #ccc;
-  transition: 0.3s;
+  background-color: #004182;
+  transition: 0.4s;
 }
 
 .footer-copy {
@@ -65,5 +62,19 @@
   .footer .footer-copy {
     margin-top: 40px;
     text-align: left;
+  }
+}
+
+@media (max-width: 375px) {
+  .footer-contato li {
+    font-size: 1.3rem;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 335px) {
+  .footer-contato li {
+    font-size: 1.125rem;
+    margin-bottom: 40px;
   }
 }
