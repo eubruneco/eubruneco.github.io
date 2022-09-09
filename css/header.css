@@ -45,7 +45,11 @@
 .marca-temporaria {
   text-transform: capitalize;
   font-size: 4rem;
-  font-weight: 700;
-  font-family: "ubuntu", "Fira Sans", Arial, Helvetica, sans-serif;
-  text-decoration: underline #763bdb 0.55rem;
+  font-weight: bold;
+  font-family: "Qwitcher Grypen", cursive;
+  border-bottom: 0.3rem solid #763bdb;
+}
+
+.marca-temporaria:hover {
+  color: #a480e1;
 }
